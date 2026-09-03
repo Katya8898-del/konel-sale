@@ -167,7 +167,7 @@ html{scroll-padding-top:92px}header{position:fixed;top:0;left:0;right:0;z-index:
   .second-photo img{object-position:center 50%}
 }
 .agency-dark{position:relative;isolation:isolate;display:grid;grid-template-columns:repeat(12,minmax(0,1fr));gap:var(--gap);align-items:start;max-width:none;padding:96px var(--desktop-edge,24px);overflow:hidden;background:#05070b;color:#fff}
-.agency-dark:before{content:"";position:absolute;z-index:-2;inset:0;background:url("assets/TER_1946.jpg") center right/cover no-repeat;filter:grayscale(.25) saturate(.55)}
+.agency-dark:before{content:"";position:absolute;z-index:-2;inset:0;background:url("assets/agent-production-bg.png") center right/cover no-repeat;filter:grayscale(.25) saturate(.55)}
 .agency-dark:after{content:"";position:absolute;z-index:-1;inset:0;background:linear-gradient(90deg,rgba(4,6,10,.98) 0%,rgba(4,6,10,.94) 48%,rgba(4,6,10,.62) 100%),linear-gradient(0deg,rgba(4,6,10,.88),rgba(4,6,10,.18))}
 .agency-dark .agency-intro{grid-column:1/8;padding:0}
 .agency-dark .label{color:var(--accent);letter-spacing:.09em;font-weight:700}
@@ -298,6 +298,9 @@ header nav>a:not(.header-cta):hover{color:#fff;transform:translateY(-1px)}
 
 .motion-ready header{animation-fill-mode:none}
 
+.hero-actions{flex-direction:column;align-items:flex-start;gap:14px}
+.hero-address{margin:0;color:#d0d5df;font-style:normal;line-height:1.45}
+
 /* Планшеты: отдельная компоновка между мобильной и десктопной версиями */
 @media(min-width:761px) and (max-width:1199px){
   :root{--desktop-edge:clamp(28px,4vw,48px);--gap:18px;--sub:22px}
@@ -367,3 +370,6 @@ header nav>a:not(.header-cta):hover{color:#fff;transform:translateY(-1px)}
   .agency-dark .agent-card .agent-phone{font-size:34px}
   .agent-button{max-width:520px}
 }
+
+/* Локальные правки: акцент на показателе обязательств */
+.debt-zero{font-weight:700}
