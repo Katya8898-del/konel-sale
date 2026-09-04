@@ -400,4 +400,5 @@ header nav>a:not(.header-cta):hover{color:#fff;transform:translateY(-1px)}
   .cover .hero-actions{margin-top:clamp(34px,5svh,52px);align-items:flex-start;text-align:left}
   .cover .hero-phone{justify-content:flex-start;text-align:left}
   .hero-address{text-align:left}
+  .hero-visual img{object-position:34% center}
 }
