@@ -151,7 +151,7 @@ html{scroll-padding-top:92px}header{position:fixed;top:0;left:0;right:0;z-index:
 .team-dark .cards .featured span,.team-dark .cards .featured p{color:#fff}
 .latest article.plan{background:#10192f}
 .latest article.plan span{color:#dce3f2}
-.second-photo img{object-position:center 54%}
+.second-photo img{object-position:center 54%;filter:brightness(.78) contrast(1.04) saturate(.8)}
 @media(min-width:761px){
   .team-dark .cards{grid-template-columns:repeat(3,minmax(0,1fr))}
   .team-dark .cards article{min-height:170px;padding:22px 24px}
@@ -164,7 +164,7 @@ html{scroll-padding-top:92px}header{position:fixed;top:0;left:0;right:0;z-index:
   .equipment-product{height:420px}
   .equipment-product img{width:94%;max-height:94%;transform:translateY(3%) scale(1.06)}
   .debt-reason{grid-column:1/13;width:100%;min-height:130px;padding:22px 24px}
-  .second-photo img{object-position:center 50%}
+  .second-photo img{object-position:center 50%;filter:brightness(.7) contrast(1.04) saturate(.8)}
 }
 .agency-dark{position:relative;isolation:isolate;display:grid;grid-template-columns:repeat(12,minmax(0,1fr));gap:var(--gap);align-items:start;max-width:none;padding:96px var(--desktop-edge,24px);overflow:hidden;background:#05070b;color:#fff}
 .agency-dark:before{content:"";position:absolute;z-index:-2;inset:0;background:url("assets/agent-production-bg.png") center right/cover no-repeat;filter:grayscale(.25) saturate(.55)}
